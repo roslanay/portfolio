@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Compagnon-Roman";
+  src: url("Compagnon-Roman.woff2") format("woff2"),
+       url("Compagnon-Roman.woff") format("woff");
+}
+
+@font-face {
+  font-family: "BusinessHistory-Regular";
+  src: url("BusinessHistory-Regular.woff2") format("woff2"),
+       url("BusinessHistory-Regular.woff") format("woff");
+}
+
+body{
+/*  cursor: url(my-cursor.png), auto;  
+*/}
+
+.container{
+  width: 90%;
+
+}
+.col-4{
+    margin-top: 10%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+    font-family: BusinessHistory-Regular;
+/*    -webkit-box-shadow: -0.5px 0.5px 5px 0px black;
+*/    /*background-color:#39FF14;*/
+  
+/*    margin-right: 3%;
+    margin-left: 6%;*/
+/*    cursor: url(my-cursor.png), auto;  
+*/
+
+  }
+
+  .col-8{
+    margin-top: 10%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+    font-family: BusinessHistory-Regular;
+/*    -webkit-box-shadow: -0.5px 0.5px 5px 0px black;
+*/    /*background-color:#39FF14;*/
+  
+/*    margin-right: 3%;
+    margin-left: 6%;*/
+/*    cursor: url(my-cursor.png), auto;  
+*/
+
+  }
+
+  .close{
+    float: left;
+    margin-left:1%;
+    font-family: BusinessHistory-Regular;
+    font-size: 2em;
+    color: #39FF14;
+    position: fixed;
+
+  }
+
+  a{
+    color:  /*#808080*/#39FF14;
+    font-size: 2em;
+  }
+
+  a:hover{
+    color: black;
+/*    cursor: url(my-cursor_hover.png), auto;
+*/  }
+
+  .container{
+   /* padding-left: 5%;*/
+  }
+
+  p{
+    font-family: helvetica;
+    font-size: 1em;
+      color:black;
+
+  }
+
+  img{
+    width: 100%;
+  }

@@ -1,0 +1,87 @@
+  @font-face {
+  font-family: "BusinessHistory-Regular";
+  src: url("BusinessHistory-Regular.woff2") format("woff2"),
+       url("BusinessHistory-Regular.woff") format("woff");
+  }
+  
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:100vh;color: black;  width: 90%; float: right; background-color:white; cursor: s-resize;}
+  #section2 {padding-top:50px;height:100vh;color: black;  width: 90%; float: right;}
+  #section3 {padding-top:50px;height:100vh;color: black;  width: 90%; float: right;}
+  #section4 {padding-top:50px;height:100vh;color: black;  width: 90%; float: right;}
+  #section5 {padding-top:50px;height:100vh;color: black;  width: 90%; float: right;}
+  #section6 {padding-top:50px;height:100vh;color: black;  width: 90%; float: right;}
+  #section7 {padding-top:50px;height:100vh;color: black;  width: 90%; float: right;}
+  #section8 {padding-top:50px;height:100vh;color: black;  width: 90%; float: right;}
+  #section9 {padding-top:50px;height:100vh;color: black;  width: 90%; float: right;}
+  #section10 {padding-top:50px;height:100vh;color: black;  width: 90%; float: right;}
+
+/*  #section41 {padding-top:50px;height:auto;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:auto;color: #fff; background-color: #009688;}*/
+  #section0{
+    width: 12%;
+    float: left;
+    background-color:  transparent;
+    height: 100vh;
+    position: fixed;
+    word-wrap: break-word;
+    font-family: BusinessHistory-Regular;
+    overflow: scroll;
+    padding-left: 1%;
+    padding-top: 1%;
+    z-index: 0;
+  }
+  a{
+  color: #39FF14 !important;
+  }
+  a:hover{
+    color:black !important;
+  }
+
+  .nav{
+    font-family: BusinessHistory-Regular;
+    font-size: 1.8em;
+  }
+
+  .carousel{
+    width: 75%;
+    float: right;
+/*    margin-top: -2.5%;
+*/  }
+
+  .left{
+    cursor: w-resize;
+  }
+  .right{
+    cursor: e-resize;
+  }
+  
+  .description{
+    width: 20%;
+    float: left;
+    margin-left: 2%;
+    font-family: 'Barlow', sans-serif;
+
+  }
+
+h1{
+      margin-left: 2%;
+      font-family: BusinessHistory-Regular;
+      color: #39FF14;
+}
+
+h2{
+      font-family: 'Barlow', sans-serif;
+      font-size: 0.9em !important;
+
+}
+  
+p{
+  font-size: 1.5em;
+}
+
+.green{
+  color: #39FF14 !important;
+}
